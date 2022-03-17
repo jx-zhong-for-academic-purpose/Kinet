@@ -5,7 +5,7 @@ We're fighting for NeurIPS 2022, after which we'll make the source code more rea
 ```
 @inproceedings{jiaxing_kinet,
   author    = {Jia-Xing Zhong and
-	             Kaichen Zhou and
+	       Kaichen Zhou and
                Qingyong Hu and
                Bing Wang and
                Niki Trigoni and
