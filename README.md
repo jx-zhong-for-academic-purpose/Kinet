@@ -3,7 +3,7 @@ We're fighting for NeurIPS 2022, after which we'll make the source code more rea
 
 ## No Pain, Big Gain: Classify Dynamic Point Cloud Sequences with Static Models by Fitting Feature-level Space-time Surfaces
 ```
-@inproceedings{jiaxing_kinet,
+@inproceedings{zhong_kinet,
   author    = {Jia-Xing Zhong and
 	       Kaichen Zhou and
                Qingyong Hu and
