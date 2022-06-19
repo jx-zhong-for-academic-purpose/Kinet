@@ -38,7 +38,7 @@ MODEL_FILE = os.path.join(FLAGS.network_file+'.py')
 LOG_DIR = FLAGS.log_dir
 if not os.path.exists(LOG_DIR): os.mkdir(LOG_DIR)
 os.system('cp %s %s' % (MODEL_FILE, LOG_DIR)) # bkp of model def
-os.system('cp *_dataloader.py %s' % (LOG_DIR)) # bkp of data loader
+os.system('cp *_dataloader*.py %s' % (LOG_DIR)) # bkp of data loader
 os.system('cp main.py %s' % (LOG_DIR)) # bkp of train procedure
 os.system('cp net_utils.py %s' % (LOG_DIR)) # bkp of net_utils
 os.system('cp %s %s' % (COMMAND_FILE, LOG_DIR)) # bkp of train procedure
