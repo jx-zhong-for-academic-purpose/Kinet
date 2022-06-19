@@ -6,7 +6,7 @@
 ## Citation
 If you find this work useful in your research, please cite:
 ```
-}@InProceedings{Zhong_2022_CVPR,
+@InProceedings{Zhong_2022_CVPR,
     author    = {Zhong, Jia-Xing and Zhou, Kaichen and Hu, Qingyong and Wang, Bing and Trigoni, Niki and Markham, Andrew},
     title     = {No Pain, Big Gain: Classify Dynamic Point Cloud Sequences With Static Models by Fitting Feature-Level Space-Time Surfaces},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
