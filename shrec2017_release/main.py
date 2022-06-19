@@ -269,7 +269,7 @@ class Processor():
                     train_op = optimizer.minimize(total_loss, global_step=batch)
 
                     # Add ops to save and restore all the variables.
-                    self.saver = tf.train.Saver(max_to_keep=100) #Fixme: remove max_to_keep
+                    self.saver = tf.train.Saver()
 
                 #'''
                 # Create a session
