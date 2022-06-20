@@ -1,4 +1,4 @@
-## (CVPR 2022) No Pain, Big Gain: Classify Dynamic Point Cloud Sequences With Static Models by Fitting Feature-Level Space-Time Surfaces
+## [CVPR 2022] No Pain, Big Gain: Classify Dynamic Point Cloud Sequences With Static Models by Fitting Feature-Level Space-Time Surfaces
 
 ## License
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
@@ -27,7 +27,7 @@ The TF operators are included under `tf_ops`, you need to compile them first by 
 
 ## Gesture Recognition on SHREC'17 without Bounding Boxes
 ### Data Preparation
-We provide the point cloud data of ***SHREC'17 without Bounding Boxes*** [here](https://pkueducn-my.sharepoint.com/:u:/g/personal/jiaxing_zhong_pku_edu_cn/EQD9ZQQMhZJLgdRbylw15xIBeonKuTpiNYy4TBq7r39C0Q?e=EMytQ3), which (`BackgroundSHREC2017`) should be downloaded to `./dataset/SHREC2017`. Following previous researches on the same dataset with bounding boxes, we generate 256 points per frame and sample 128 for training a 32-frame classifier. The data splitting files can be found as follows - download the [SHREC'17 dataset](http://www-rech.telecom-lille.fr/shrec2017-hand/) and put `HandGestureDataset_SHREC2017` directory to `./dataset/SHREC2017`, It is suggested to make a soft link toward downloaded dataset.
+We provide the point cloud data of ***SHREC'17 without Bounding Boxes*** [here](https://pkueducn-my.sharepoint.com/:u:/g/personal/jiaxing_zhong_pku_edu_cn/EQD9ZQQMhZJLgdRbylw15xIBeonKuTpiNYy4TBq7r39C0Q?e=EMytQ3), which (`BackgroundSHREC2017`) should be downloaded to `./dataset/SHREC2017`. Following previous researches on the same dataset with bounding boxes, we generate 256 points per frame and sample 128 for training a 32-frame classifier. The data splitting files can be found as follows - download the [SHREC'17 dataset](http://www-rech.telecom-lille.fr/shrec2017-hand/) and put `HandGestureDataset_SHREC2017` directory to `./dataset/SHREC2017`, It is suggested to make a soft link toward the downloaded dataset.
 ### Train
 First, let's train the static branch (For better performance, pretraining on additional static datasets like *ModelNet40* is probably helpful):
 ```
