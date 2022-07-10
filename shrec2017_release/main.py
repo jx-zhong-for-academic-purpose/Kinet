@@ -189,7 +189,7 @@ class Processor():
                 pretrained = MODEL_PATH
                 if pretrained is not '':
                     variables = tf.contrib.framework.get_variables_to_restore()
-                    variables_to_restore = [v for v in variables if '_dynamic' not in v.name and "batch:" not in v.name]
+                    variables_to_restore = [v for v in variables if 'fc3' not in v.name and "batch:" not in v.name]
                     if OPTIMIZER == 'adam':
                         variables_to_restore = [v for v in variables_to_restore if "_power" not in v.name]
                     elif OPTIMIZER == 'momentum':
