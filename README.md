@@ -39,7 +39,7 @@ Then, train the dynamic branch:
 bash train_dynamic.sh
 ```
 ### Test a Trained Model
-A trained model is provided [here](https://pkueducn-my.sharepoint.com/:u:/g/personal/jiaxing_zhong_pku_edu_cn/EZiUih_41FVHtV9PbVS738kBsawZ2f0JuT50G1hTeZMMQw?e=M3o4sS). The performance of static, dynamic & fusion branches can be evaluated:
+A trained model is provided [here](https://unioxfordnexus-my.sharepoint.com/:u:/g/personal/wolf5902_ox_ac_uk/ERs3O0YebG5BhJQFErF3gNMBBu9aD6XEFx5t6oxgP4MYOA). The performance of static, dynamic & fusion branches can be evaluated:
 ```
 bash test.sh
 ```
